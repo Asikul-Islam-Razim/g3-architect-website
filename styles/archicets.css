@@ -120,8 +120,49 @@ margin: 0px auto;
 #quick-list{
     font-weight: 500;
 }
+/* feauters related style */
 
+.enjoy{
+    gap: 140px;
+}
 
+#features-section-title{
+   border-left: 5px solid #FF900E;
+   padding-left: 20px; 
+}
+
+.feature-card{
+    padding: 30px;
+    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 171px;
+    width: 586px;
+}
+.feature-title,  .feature-card{
+font-weight: 600;
+font-size: 1.25rem;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.enjoy-architect img{
+    width: 100%;
+}
 
 /* some facts related styles */
 
@@ -172,10 +213,12 @@ margin: 0px auto;
     filter: grayscale(100%);
 }
 
+
+
 /* responsive media query */
 
 @media screen and (max-width:576px){
-    .nav-bar, .nav-links, .teams{
+    .nav-bar, .nav-links, .teams, .enjoy{
         flex-direction: column;
     }
     .team-image-container,
@@ -191,4 +234,10 @@ margin: 0px auto;
     .our-features{
         margin-left: 20px;
     }
+
+    #experience-badge{
+         margin-left: 00px;
+    margin-top: 00px;
+    }
+    
 }
